@@ -1,0 +1,28 @@
+﻿@using Microsoft.AspNetCore.Identity
+@using IT15_Project.Models
+
+@inject SignInManager<UserModel> SignInManager
+@inject UserManager<UserModel> UserManager
+
+<li class="nav-item dropdown">
+    <a id="accountDropdown" class="nav-link dropdown-toggle text-dark" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        Account
+    </a>
+    <div class="dropdown-menu" aria-labelledby="accountDropdown">
+        @if (SignInManager.IsSignedIn(User))
+        {
+            <a class="dropdown-item text-dark px-3" asp-area="Identity" asp-page="/Account/Manage/Index">
+                Hello @UserManager.GetUserName(User)!    
+            </a>
+            <div class="dropdown-divider"></div>
+            <form id="logoutForm" class="dropdown-item" asp-area="Identity" asp-page="/Account/Logout" asp-route-returnUrl="@Url.Action("Index", "", new { area = "" })">
+                <button id="logout" type="submit" class="ps-0 btn btn-link text-decoration-none text-danger">Logout</button>
+            </form>
+        }
+        else
+        {
+            <a class="dropdown-item text-dark" id="login" asp-area="Identity" asp-page="/Account/Login">Login</a>
+            <a class="dropdown-item text-dark" id="register" asp-area="Identity" asp-page="/Account/Register">Register</a>
+        }
+    </div>
+</li>

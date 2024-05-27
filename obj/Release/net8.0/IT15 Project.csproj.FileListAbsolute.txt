@@ -1,0 +1,30 @@
+D:\Microsoft Visual Studio Custom Path\source\repos\IT15 Project\bin\Release\net8.0\appsettings.Development.json
+D:\Microsoft Visual Studio Custom Path\source\repos\IT15 Project\bin\Release\net8.0\appsettings.json
+D:\Microsoft Visual Studio Custom Path\source\repos\IT15 Project\bin\Release\net8.0\IT15 Project.staticwebassets.runtime.json
+D:\Microsoft Visual Studio Custom Path\source\repos\IT15 Project\bin\Release\net8.0\IT15 Project.exe
+D:\Microsoft Visual Studio Custom Path\source\repos\IT15 Project\bin\Release\net8.0\IT15 Project.deps.json
+D:\Microsoft Visual Studio Custom Path\source\repos\IT15 Project\bin\Release\net8.0\IT15 Project.runtimeconfig.json
+D:\Microsoft Visual Studio Custom Path\source\repos\IT15 Project\bin\Release\net8.0\IT15 Project.dll
+D:\Microsoft Visual Studio Custom Path\source\repos\IT15 Project\bin\Release\net8.0\IT15 Project.pdb
+D:\Microsoft Visual Studio Custom Path\source\repos\IT15 Project\obj\Release\net8.0\IT15 Project.GeneratedMSBuildEditorConfig.editorconfig
+D:\Microsoft Visual Studio Custom Path\source\repos\IT15 Project\obj\Release\net8.0\IT15 Project.AssemblyInfoInputs.cache
+D:\Microsoft Visual Studio Custom Path\source\repos\IT15 Project\obj\Release\net8.0\IT15 Project.AssemblyInfo.cs
+D:\Microsoft Visual Studio Custom Path\source\repos\IT15 Project\obj\Release\net8.0\IT15 Project.csproj.CoreCompileInputs.cache
+D:\Microsoft Visual Studio Custom Path\source\repos\IT15 Project\obj\Release\net8.0\IT15 Project.MvcApplicationPartsAssemblyInfo.cache
+D:\Microsoft Visual Studio Custom Path\source\repos\IT15 Project\obj\Release\net8.0\IT15 Project.RazorAssemblyInfo.cache
+D:\Microsoft Visual Studio Custom Path\source\repos\IT15 Project\obj\Release\net8.0\IT15 Project.RazorAssemblyInfo.cs
+D:\Microsoft Visual Studio Custom Path\source\repos\IT15 Project\obj\Release\net8.0\staticwebassets.build.json
+D:\Microsoft Visual Studio Custom Path\source\repos\IT15 Project\obj\Release\net8.0\staticwebassets.development.json
+D:\Microsoft Visual Studio Custom Path\source\repos\IT15 Project\obj\Release\net8.0\staticwebassets\msbuild.IT15 Project.Microsoft.AspNetCore.StaticWebAssets.props
+D:\Microsoft Visual Studio Custom Path\source\repos\IT15 Project\obj\Release\net8.0\staticwebassets\msbuild.build.IT15 Project.props
+D:\Microsoft Visual Studio Custom Path\source\repos\IT15 Project\obj\Release\net8.0\staticwebassets\msbuild.buildMultiTargeting.IT15 Project.props
+D:\Microsoft Visual Studio Custom Path\source\repos\IT15 Project\obj\Release\net8.0\staticwebassets\msbuild.buildTransitive.IT15 Project.props
+D:\Microsoft Visual Studio Custom Path\source\repos\IT15 Project\obj\Release\net8.0\staticwebassets.pack.json
+D:\Microsoft Visual Studio Custom Path\source\repos\IT15 Project\obj\Release\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+D:\Microsoft Visual Studio Custom Path\source\repos\IT15 Project\obj\Release\net8.0\scopedcss\bundle\IT15 Project.styles.css
+D:\Microsoft Visual Studio Custom Path\source\repos\IT15 Project\obj\Release\net8.0\scopedcss\projectbundle\IT15 Project.bundle.scp.css
+D:\Microsoft Visual Studio Custom Path\source\repos\IT15 Project\obj\Release\net8.0\IT15 Project.dll
+D:\Microsoft Visual Studio Custom Path\source\repos\IT15 Project\obj\Release\net8.0\refint\IT15 Project.dll
+D:\Microsoft Visual Studio Custom Path\source\repos\IT15 Project\obj\Release\net8.0\IT15 Project.pdb
+D:\Microsoft Visual Studio Custom Path\source\repos\IT15 Project\obj\Release\net8.0\IT15 Project.genruntimeconfig.cache
+D:\Microsoft Visual Studio Custom Path\source\repos\IT15 Project\obj\Release\net8.0\ref\IT15 Project.dll

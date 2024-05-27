@@ -1,0 +1,91 @@
+﻿@model List<Appointment>
+
+<div class="content">
+    <div class="row">
+        <div class="col-sm-4 col-3">
+            <h4 class="page-title">Patients</h4>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+            <div class="table-responsive">
+                <table class="table table-border table-striped custom-table datatable mb-0">
+                    <thead>
+                        <tr>
+                            <th>Name</th>
+                            <th>Phone</th>
+                            <th>Email</th>
+                            <th>Payment</th>
+                            <th>Doctor</th>
+                            <th>Department</th>
+                            <th>Schedule</th>
+                            <th>Status</th>
+                            <th class="text-right">Action</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @if (Model != null)
+                        {
+                            @foreach (var appointment in Model)
+                            {
+                                <tr>
+                                    <td>
+                                        <img width="28" height="28" src="~/assets/img/user.jpg" class="rounded-circle m-r-5" alt="">
+                                        @appointment.FullName
+                                    </td>
+                                    <td>@appointment.PhoneNumber</td>
+                                    <td>@appointment.Email</td>
+                                    <td>@appointment.Status</td>
+                                    <td>@appointment.AssignedDoctor</td>
+                                    <td>@appointment.AssignedDept</td>
+                                    <td>@appointment.AppointmentDate.ToString("MMMM dd, yyyy")</td>
+                                    <td>@appointment.Validity</td>
+                                    <td class="text-right">
+                                        @if (appointment.Validity == "Archived")
+                                        {
+                                            <button class="btn btn-light btn-sm" onclick="archiveAppointment(@appointment.AppointmentId)">
+                                                <i class="fa fa-archive m-r-5"></i> Archive
+                                            </button>
+                                        }
+                                        else
+                                        {
+                                            <a class="dropdown-item" href="/Admin/EditAppointment/@appointment.AppointmentId">
+                                                <i class="fa fa-pencil m-r-5"></i> Edit
+                                            </a>
+                                        }
+                                    </td>
+                                </tr>
+                            }
+
+                        }
+                        else
+                        {
+                            <tr>
+                                <td colspan="8">No appointments found.</td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    function archiveAppointment(id) {
+        console.log("Archiving appointment with ID:", id);
+        fetch(`/Admin/Archive/${id}`, {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+                'X-CSRF-TOKEN': '@Html.AntiForgeryToken()'
+            }
+        }).then(response => {
+            if (response.ok) {
+                location.reload();
+            } else {
+                console.error('Failed to archive appointment');
+            }
+        }).catch(error => console.error('Error:', error));
+    }
+</script>

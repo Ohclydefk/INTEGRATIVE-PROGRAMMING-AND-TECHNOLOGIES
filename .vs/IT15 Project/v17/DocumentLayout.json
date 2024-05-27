@@ -1,0 +1,123 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Microsoft Visual Studio Custom Path\\source\\repos\\IT15 Project\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CAF7E976-7DCF-4ECE-A6F0-5DC6AE95207F}|IT15 Project.csproj|d:\\microsoft visual studio custom path\\source\\repos\\it15 project\\controllers\\api\\paymongocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CAF7E976-7DCF-4ECE-A6F0-5DC6AE95207F}|IT15 Project.csproj|solutionrelative:controllers\\api\\paymongocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CAF7E976-7DCF-4ECE-A6F0-5DC6AE95207F}|IT15 Project.csproj|d:\\microsoft visual studio custom path\\source\\repos\\it15 project\\views\\admin\\adddoctor.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CAF7E976-7DCF-4ECE-A6F0-5DC6AE95207F}|IT15 Project.csproj|solutionrelative:views\\admin\\adddoctor.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CAF7E976-7DCF-4ECE-A6F0-5DC6AE95207F}|IT15 Project.csproj|d:\\microsoft visual studio custom path\\source\\repos\\it15 project\\views\\admin\\editappointment.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CAF7E976-7DCF-4ECE-A6F0-5DC6AE95207F}|IT15 Project.csproj|solutionrelative:views\\admin\\editappointment.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CAF7E976-7DCF-4ECE-A6F0-5DC6AE95207F}|IT15 Project.csproj|d:\\microsoft visual studio custom path\\source\\repos\\it15 project\\views\\admin\\appointment.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CAF7E976-7DCF-4ECE-A6F0-5DC6AE95207F}|IT15 Project.csproj|solutionrelative:views\\admin\\appointment.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CAF7E976-7DCF-4ECE-A6F0-5DC6AE95207F}|IT15 Project.csproj|d:\\microsoft visual studio custom path\\source\\repos\\it15 project\\controllers\\admin\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CAF7E976-7DCF-4ECE-A6F0-5DC6AE95207F}|IT15 Project.csproj|solutionrelative:controllers\\admin\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CAF7E976-7DCF-4ECE-A6F0-5DC6AE95207F}|IT15 Project.csproj|d:\\microsoft visual studio custom path\\source\\repos\\it15 project\\views\\admin\\_adminlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CAF7E976-7DCF-4ECE-A6F0-5DC6AE95207F}|IT15 Project.csproj|solutionrelative:views\\admin\\_adminlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "D:\\Microsoft Visual Studio Custom Path\\source\\repos\\IT15 Project\\Controllers\\Admin\\AdminController.cs",
+              "RelativeDocumentMoniker": "Controllers\\Admin\\AdminController.cs",
+              "ToolTip": "D:\\Microsoft Visual Studio Custom Path\\source\\repos\\IT15 Project\\Controllers\\Admin\\AdminController.cs",
+              "RelativeToolTip": "Controllers\\Admin\\AdminController.cs",
+              "ViewState": "AQIAAP4AAAAAAAAAAAAAwAcBAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-20T13:08:48.31Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PaymongoController.cs",
+              "DocumentMoniker": "D:\\Microsoft Visual Studio Custom Path\\source\\repos\\IT15 Project\\Controllers\\API\\PaymongoController.cs",
+              "RelativeDocumentMoniker": "Controllers\\API\\PaymongoController.cs",
+              "ToolTip": "D:\\Microsoft Visual Studio Custom Path\\source\\repos\\IT15 Project\\Controllers\\API\\PaymongoController.cs",
+              "RelativeToolTip": "Controllers\\API\\PaymongoController.cs",
+              "ViewState": "AQIAAI8AAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T12:58:51.324Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AddDoctor.cshtml",
+              "DocumentMoniker": "D:\\Microsoft Visual Studio Custom Path\\source\\repos\\IT15 Project\\Views\\Admin\\AddDoctor.cshtml",
+              "RelativeDocumentMoniker": "Views\\Admin\\AddDoctor.cshtml",
+              "ToolTip": "D:\\Microsoft Visual Studio Custom Path\\source\\repos\\IT15 Project\\Views\\Admin\\AddDoctor.cshtml",
+              "RelativeToolTip": "Views\\Admin\\AddDoctor.cshtml",
+              "ViewState": "AQIAADwAAAAAAAAAAAAAAEEAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-21T12:09:13.59Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "_AdminLayout.cshtml",
+              "DocumentMoniker": "D:\\Microsoft Visual Studio Custom Path\\source\\repos\\IT15 Project\\Views\\Admin\\_AdminLayout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Admin\\_AdminLayout.cshtml",
+              "ToolTip": "D:\\Microsoft Visual Studio Custom Path\\source\\repos\\IT15 Project\\Views\\Admin\\_AdminLayout.cshtml",
+              "RelativeToolTip": "Views\\Admin\\_AdminLayout.cshtml",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAABUAAABGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-20T17:09:15.257Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EditAppointment.cshtml",
+              "DocumentMoniker": "D:\\Microsoft Visual Studio Custom Path\\source\\repos\\IT15 Project\\Views\\Admin\\EditAppointment.cshtml",
+              "RelativeDocumentMoniker": "Views\\Admin\\EditAppointment.cshtml",
+              "ToolTip": "D:\\Microsoft Visual Studio Custom Path\\source\\repos\\IT15 Project\\Views\\Admin\\EditAppointment.cshtml",
+              "RelativeToolTip": "Views\\Admin\\EditAppointment.cshtml",
+              "ViewState": "AQIAAFwAAAAAAAAAAAAAAGYAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-20T17:04:53.925Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Appointment.cshtml",
+              "DocumentMoniker": "D:\\Microsoft Visual Studio Custom Path\\source\\repos\\IT15 Project\\Views\\Admin\\Appointment.cshtml",
+              "RelativeDocumentMoniker": "Views\\Admin\\Appointment.cshtml",
+              "ToolTip": "D:\\Microsoft Visual Studio Custom Path\\source\\repos\\IT15 Project\\Views\\Admin\\Appointment.cshtml",
+              "RelativeToolTip": "Views\\Admin\\Appointment.cshtml",
+              "ViewState": "AQIAADkAAAAAAAAAAAAAAAAAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-20T16:46:03.672Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test API</title>
+</head>
+<body>
+    <h1>Test API</h1>
+    <button id="payButton">Pay Now</button>
+
+    <script>
+        document.getElementById("payButton").addEventListener("click", async function () {
+            try {
+                const response = await fetch('/api/paymongo/create-checkout-session', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    }
+                });
+
+                const data = await response.json();
+                // console.log(data);
+
+                const paymentLink = data.data.attributes.checkout_url;
+                //console.log(paymentLink);
+
+                window.location.href = paymentLink;
+            } catch (error) {
+                console.error(':', error);
+            }
+        });
+    </script>
+</body>
+</html>
+Error
